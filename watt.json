@@ -14,8 +14,8 @@
       "path": "web/composer"
     },
     {
-      "id": "fastify",
-      "path": "web/fastify"
+      "id": "app",
+      "path": "web/app"
     },
     {
       "id": "node",
