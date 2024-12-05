@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.platformatic.dev/wattpm/2.21.0.json",
+  "server": {
+    "hostname": "{PLT_SERVER_HOSTNAME}",
+    "port": 3042
+  },
+  "logger": {
+    "level": "info"
+  },
+  "entrypoint": "composer",
+  "web": [
+    {
+      "id": "composer",
+      "path": "web/composer"
+    },
+    {
+      "id": "fastify",
+      "path": "web/fastify"
+    },
+    {
+      "id": "node",
+      "path": "{PLT_NODE_PATH}",
+      "url": "https://github.com/platformatic/watt-demos-node-service.git"
+    },
+    {
+      "id": "next",
+      "path": "{PLT_NEXT_PATH}",
+      "url": "https://github.com/platformatic/watt-demos-next-service.git"
+    }
+  ],
+  "basePath": "{PLT_BASE_PATH}"
+}

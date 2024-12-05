@@ -1,0 +1,23 @@
+{
+  "name": "with-resolve",
+  "private": true,
+  "scripts": {
+    "dev": "wattpm dev",
+    "resolve": "wattpm resolve",
+    "build": "wattpm build",
+    "start": "wattpm start"
+  },
+  "dependencies": {
+    "@platformatic/runtime": "2.21.0",
+    "@platformatic/next": "2.21.0",
+    "@platformatic/node": "2.21.0",
+    "wattpm": "2.21.0"
+  },
+  "devDependencies": {
+    "platformatic": "2.21.0"
+  },
+  "workspaces": [
+    "web/*",
+    "external/*"
+  ]
+}

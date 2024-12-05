@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/composer/2.21.0.json",
+  "server": {
+    "healthCheck": true
+  },
+  "composer": {
+    "refreshTimeout": 1000
+  },
+  "watch": true
+}
